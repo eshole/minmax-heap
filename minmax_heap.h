@@ -62,7 +62,6 @@ void minmax_heap<T>::downHeap(int index) {
 
 template <typename T>
 void minmax_heap<T>::downHeapMax(int index)  { // downHeap na neparnom nivou
-    //cout << arr[index] << endl;
     if (leftChild(index) >= arr.size()) return; // nema djece
     if (rightChild(index) >= arr.size()) { // ima samo lijevo dijete
         if (arr[leftChild(index)] > arr[index]) {
@@ -92,7 +91,6 @@ void minmax_heap<T>::downHeapMax(int index)  { // downHeap na neparnom nivou
 
 template <typename T>
 void minmax_heap<T>::downHeapMin(int index)  { // downHeap na parnom nivou
-    //cout << arr[index] << endl;
     if (leftChild(index) >= arr.size()) return; // nema djece
     if (rightChild(index) >= arr.size()) { // ima samo lijevo dijete
         if (arr[leftChild(index)] < arr[index]) {
