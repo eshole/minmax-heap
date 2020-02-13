@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1581108855 source:/home/benjo/Desktop/IT2018-20xx/Strukture podataka i algoritmi/Vjezba/MinMaxHeap/main.cpp
+	<iostream>
+	<cmath>
+	"minmax_heap.h"
+
+1581111387 /home/benjo/Desktop/IT2018-20xx/Strukture podataka i algoritmi/Vjezba/MinMaxHeap/minmax_heap.h
+	<iostream>
+	<vector>
+	<cmath>
+	"minmax_heap.cpp"
+
+1581111392 /home/benjo/Desktop/IT2018-20xx/Strukture podataka i algoritmi/Vjezba/MinMaxHeap/minmax_heap.cpp
+	<vector>
+	"minmax_heap.h"
+

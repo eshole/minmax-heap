@@ -13,13 +13,12 @@ class minmax_heap {
     int rightChild(int index) {return 2*index+2;}
     int parent(int index) {return (index-1)/2;}
     int grandParent(int index) {return (index-3)/4;}
-    void upHeap(int index);
     void downHeap(int index);
     void upHeapMin(int index);
     void upHeapMax(int index);
     void downHeapMin(int index);
     void downHeapMax(int index);
-    int minOrMax(int index) { return (int)floor(log2(index+1))%2 == 1 ? 1 : 0; } // parni nivo je 0, neparni 1
+    int minOrMax(int index) { return (int)log2(index+1)%2 == 1 ? 1 : 0; } // parni nivo je 0, neparni 1
     void makeHeap();
 public:
     minmax_heap() {}

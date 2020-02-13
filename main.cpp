@@ -6,13 +6,13 @@ using namespace std;
 
 int main() {
     try {
-        vector<int> v{13, 90, 44, 18, 3, 54, 29, 33, 41, 7, 92, 52, 10, 47};
+        vector<int> v{13, 32, 45};
+        vector<int> v1 = {4,79,59,32,12,11,23,63,54,42,20,31,19};
         minmax_heap<int> h(v);
-        //h.Insert(73);
-        h.Insert(78);
-        h.print();
+        //h.Insert(54);
         h.deleteMin();
         h.print();
+        cout << ();
     //    minmax_heap<int> h1;
     //    h1.Insert(15);
     //    h1.Insert(5);
